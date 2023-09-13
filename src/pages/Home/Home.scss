@@ -8,7 +8,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    .home__title{
+    flex-direction: column;
+    &__title{
         font-size: 6rem;
         max-width: 600px;
         font-weight: 500;
@@ -16,5 +17,36 @@
         color: #150A44;
         font-family: 'CustomFont', sans-serif;
         line-height: 1;
+    }
+    &__fact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 200px;
+        width: 300px;
+        background-color: #2A29E8;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        margin-top: 91px;
+        padding: 30px;
+
+        &__title{
+            font-size: 1.5rem;
+            max-width: 600px;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            color: #F8E48F;
+            font-family: 'CustomFont', sans-serif;
+            line-height: 1;
+        }
+        &__content{
+            font-size: 1rem;
+            max-width: 600px;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            color: #F8E48F;
+            line-height: 2;
+        }
     }
 }
