@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../../assets/fonts/brigendsexpanded.otf') format('truetype');
+    /* Add other font-face properties here if needed */
+  }
+  
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .home__title{
+        font-size: 6rem;
+        max-width: 600px;
+        font-weight: 500;
+        margin-bottom: 1rem;
+        color: #150A44;
+        font-family: 'CustomFont', sans-serif;
+        line-height: 1;
+    }
+}
