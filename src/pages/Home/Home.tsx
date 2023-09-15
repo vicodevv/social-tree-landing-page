@@ -3,12 +3,16 @@ import React from 'react'
 import Header from '../../components/Header'
 import arrow from '../../assets/images/arrow.png'
 import arrow2 from '../../assets/images/arrow2.png'
+import character1 from '../../assets/images/Character1.png'
 
 const Home = () => {
     return (
         <div>
             <Header />
             <div className="home">
+                <div className="character">
+                    <img className='character1' src={character1} alt='3D Character'/>
+                </div>
                 <div className="home__hero">
                 <div className="image">
                     <img src={arrow2} alt='arrow'/>
