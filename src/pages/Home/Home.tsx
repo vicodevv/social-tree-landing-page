@@ -4,6 +4,7 @@ import Header from '../../components/Header'
 import arrow from '../../assets/images/arrow.png'
 import arrow2 from '../../assets/images/arrow2.png'
 import character1 from '../../assets/images/Character1.png'
+import character2 from '../../assets/images/Character2.png'
 
 const Home = () => {
     return (
@@ -11,7 +12,12 @@ const Home = () => {
             <Header />
             <div className="home">
                 <div className="character">
+                    <div className="box1"></div>
                     <img className='character1' src={character1} alt='3D Character'/>
+                </div>
+                <div className="character">
+                <div className="box2"></div>
+                    <img className='character2' src={character2} alt='3D Character'/>
                 </div>
                 <div className="home__hero">
                 <div className="image">

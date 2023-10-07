@@ -10,11 +10,43 @@
     align-items: center;
     flex-direction: column;
 
+    .box1{
+        position: absolute;
+        top: 30;
+        left: 0;
+        margin-left: 200px;
+        height: 50px;
+        width: 50px;
+        background-color: #F8A68D;
+        border-radius: 30px;
+        margin-top: 10px;
+        padding: 30px;
+    } 
     .character1{
         position: absolute;
         top: 40;
         left: 0;
         margin-left: 220px;
+        width: 70px;
+        height: 100px;
+    }
+    .box2{
+        position: absolute;
+        top: 40;
+        right: 10;
+        margin-left: 360px;
+        height: 50px;
+        width: 50px;
+        background-color: #FAE38F;
+        border-radius: 30px;
+        margin-top: 10px;
+        padding: 30px;
+    } 
+    .character2{
+        position: absolute;
+        top: 40;
+        right: 10;
+        margin-left: 380px;
         width: 70px;
         height: 100px;
     }
