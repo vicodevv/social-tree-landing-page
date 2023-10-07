@@ -10,6 +10,36 @@
     align-items: center;
     flex-direction: column;
 
+    .rectangle__container{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        height: 80vh;
+    }
+    .rectangle1{
+        position: absolute;
+        height: 80vh;
+        width: 70px;
+        background-color: #F9E392;
+        margin-right: 30px;
+    }
+    .rectangle2{
+        position: absolute;
+        height: 80vh;
+        width: 40px;
+        background-color: #F8A68D;
+
+    }
+    .rectangle3{
+        position: absolute;
+        height: 80vh;
+        width: 30px;
+        background-color: #95D5ED;
+        margin-left: 60px;
+    }
+
     .box1{
         position: absolute;
         top: 30;
@@ -46,7 +76,47 @@
         position: absolute;
         top: 40;
         right: 10;
-        margin-left: 380px;
+        margin-left: 385px;
+        width: 70px;
+        height: 100px;
+    }
+    .box3{
+        position: absolute;
+        top: 40;
+        right: 10;
+        margin-left: 320px;
+        height: 50px;
+        width: 50px;
+        background-color: #000000;
+        border-radius: 30px;
+        margin-top: 10px;
+        padding: 30px;
+    } 
+    .character3{
+        position: absolute;
+        top: 40;
+        right: 10;
+        margin-left: 340px;
+        width: 70px;
+        height: 100px;
+    }
+    .box4{
+        position: absolute;
+        top: 30;
+        left: 0;
+        margin-left: 250px;
+        height: 50px;
+        width: 50px;
+        background-color: #95D5ED;
+        border-radius: 30px;
+        margin-top: 10px;
+        padding: 30px;
+    } 
+    .character4{
+        position: absolute;
+        top: 40;
+        left: 0;
+        margin-left: 270px;
         width: 70px;
         height: 100px;
     }
@@ -57,6 +127,7 @@
         flex-direction: row;
         margin-top: 100px;
         &__title{
+            position: relative;
             font-size: 6rem;
             max-width: 600px;
             font-weight: 500;
@@ -70,6 +141,7 @@
 
     &__fact{
         display: flex;
+        position: relative;
         justify-content: center;
         align-items: center;
         flex-direction: column;

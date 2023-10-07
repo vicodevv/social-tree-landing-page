@@ -5,6 +5,8 @@ import arrow from '../../assets/images/arrow.png'
 import arrow2 from '../../assets/images/arrow2.png'
 import character1 from '../../assets/images/Character1.png'
 import character2 from '../../assets/images/Character2.png'
+import character3 from '../../assets/images/Character3.png'
+import character4 from '../../assets/images/Character4.png'
 
 const Home = () => {
     return (
@@ -19,6 +21,11 @@ const Home = () => {
                 <div className="box2"></div>
                     <img className='character2' src={character2} alt='3D Character'/>
                 </div>
+                <div className="rectangle__container">
+                <div className="rectangle1"></div>
+                <div className="rectangle2"></div>
+                <div className="rectangle3"></div>
+                </div>
                 <div className="home__hero">
                 <div className="image">
                     <img src={arrow2} alt='arrow'/>
@@ -29,6 +36,14 @@ const Home = () => {
                 <div className="image">
                     <img src={arrow} alt='arrow'/>
                 </div>
+                </div>
+                <div className="character">
+                <div className="box4"></div>
+                    <img className='character4' src={character4} alt='3D Character'/>
+                </div>
+                <div className="character">
+                <div className="box3"></div>
+                    <img className='character3' src={character3} alt='3D Character'/>
                 </div>
                 <div className="home__fact">
                     <div className="home__fact__title">
