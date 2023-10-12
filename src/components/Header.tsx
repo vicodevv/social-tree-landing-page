@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.scss'
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const Header = () => {
     return (
@@ -8,10 +9,8 @@ const Header = () => {
                 <h1>SOCIAL TREE</h1>
             </div>
             <div className="header__nav">
-                <ul>
-                    <li>Sign Up</li>
-                    <li>Log In</li>
-                </ul>
+                <div className="circle"></div>
+                <ArrowForwardIcon className='header__nav__icon'/>
             </div>
         </div>
     );
